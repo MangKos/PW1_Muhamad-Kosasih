@@ -9,9 +9,7 @@ if (!isset($_SESSION['login'])) {
 
 $user_id = $_SESSION['user_id'];
 
-/* =====================
-   DATA MOOD
-===================== */
+// data mood
 $moodData = [];
 $moodQuery = $koneksi->prepare("
     SELECT tanggal, mood 
@@ -27,9 +25,7 @@ while ($row = $resultMood->fetch_assoc()) {
     $moodData[] = $row;
 }
 
-/* =====================
-   DATA SELF CARE
-===================== */
+// data selfcare
 $selfCareData = [];
 $selfCareQuery = $koneksi->prepare("
     SELECT tanggal,
@@ -54,12 +50,9 @@ while ($row = $resultSC->fetch_assoc()) {
 <title>Laporan Kesehatan Mental</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- BOOTSTRAP CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-
-<!-- CHART JS -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 <style>
@@ -86,7 +79,7 @@ body {
     Laporan ini menampilkan perkembangan kondisi mental berdasarkan catatan harian kamu.
 </p>
 
-<!-- ================= GRAFIK ================= -->
+<!-- grafik -->
 <div class="row g-4 mb-4">
 
     <div class="col-md-6">
@@ -105,7 +98,6 @@ body {
 
 </div>
 
-<!-- ================= INTERPRETASI ================= -->
 <div class="card p-4 shadow-sm mb-4">
     <h6 class="fw-semibold mb-2">Interpretasi</h6>
     <p class="text-muted small mb-0">
@@ -115,7 +107,7 @@ body {
     </p>
 </div>
 
-<!-- ================= DOWNLOAD ================= -->
+<!-- donwload -->
 <div class="dropdown">
     <button class="btn btn-primary dropdown-toggle px-4"
         type="button"
@@ -144,7 +136,7 @@ body {
 
 </div>
 
-<!-- ================= SCRIPT ================= -->
+<!-- skrip -->
 <script>
 const moodData = <?= json_encode($moodData) ?>;
 const selfCareData = <?= json_encode($selfCareData) ?>;
@@ -176,7 +168,6 @@ new Chart(document.getElementById('selfCareChart'), {
 });
 </script>
 
-<!-- BOOTSTRAP JS (INI YANG TADI KURANG) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>

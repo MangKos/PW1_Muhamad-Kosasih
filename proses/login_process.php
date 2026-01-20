@@ -31,12 +31,12 @@ if ($username === '' || $password === '') {
 }
 
 // brute force
-$_SESSION['login_attempt'] = $_SESSION['login_attempt'] ?? 0;
-if ($_SESSION['login_attempt'] >= 5) {
-    $_SESSION['error'] = "Terlalu banyak percobaan login. Coba lagi nanti.";
-    header("Location: ../login.php");
-    exit;
-}
+// $_SESSION['login_attempt'] = $_SESSION['login_attempt'] ?? 0;
+// if ($_SESSION['login_attempt'] >= 5) {
+//     $_SESSION['error'] = "Terlalu banyak percobaan login. Coba lagi nanti.";
+//     header("Location: ../login.php");
+//     exit;
+// }
 
 $sql = "SELECT id, username, password FROM users WHERE username = ? LIMIT 1";
 $stmt = mysqli_prepare($koneksi, $sql);

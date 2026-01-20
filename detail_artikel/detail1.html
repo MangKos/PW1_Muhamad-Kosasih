@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Detail Artikel - Kesehatan Mental</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f8f3ff;
+            color: #3c2a44;
+        }
+        .article-box {
+            background: white;
+            border-radius: 16px;
+            padding: 32px;
+            box-shadow: 0 12px 30px rgba(80,40,100,0.08);
+        }
+        .article-box h1 {
+            color: #6f3d73;
+            margin-bottom: 16px;
+        }
+        .article-box p {
+            line-height: 1.8;
+            margin-bottom: 16px;
+            text-align: justify;
+        }
+        .btn-back {
+            text-decoration: none;
+            color: #6f3d73;
+            font-size: 0.9rem;
+        }
+        .btn-back:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container my-5">
+    <a href="../index.php#artikel" class="btn-back">← Kembali</a>
+
+    <div class="article-box mt-3">
+        <h1 id="title"></h1>
+        <div id="content"></div>
+    </div>
+</div>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const info = params.get("info");
+
+const articles = {
+    1: {
+        title: "Apa itu Kesehatan Mental?",
+        content: `
+        <p>
+        Kesehatan mental adalah kondisi kesejahteraan emosional, psikologis, dan sosial seseorang yang memengaruhi cara berpikir,
+        merasakan, dan bertindak dalam kehidupan sehari-hari. Kesehatan mental yang baik memungkinkan seseorang menghadapi stres,
+        bekerja secara produktif, serta berkontribusi positif terhadap lingkungan sekitarnya.
+        </p>
+
+        <p>
+        Banyak orang menganggap kesehatan mental hanya berkaitan dengan gangguan jiwa, padahal sebenarnya kesehatan mental
+        mencakup keseimbangan emosi, kemampuan mengelola tekanan hidup, serta hubungan sosial yang sehat.
+        </p>
+
+        <p>
+        Menjaga kesehatan mental sama pentingnya dengan menjaga kesehatan fisik. Pola tidur yang baik, komunikasi terbuka,
+        aktivitas fisik, dan manajemen emosi adalah langkah dasar untuk mempertahankannya.
+        </p>
+        `
+    },
+    2: {
+        title: "Mengatasi Stress & Tekanan",
+        content: `
+        <p>
+        Stres adalah respon alami tubuh terhadap tekanan atau tuntutan tertentu. Namun, stres yang berlebihan dan berkepanjangan
+        dapat berdampak buruk bagi kesehatan mental dan fisik.
+        </p>
+
+        <p>
+        Beberapa cara efektif untuk mengelola stres antara lain dengan mengatur waktu secara realistis, beristirahat cukup,
+        melakukan aktivitas relaksasi seperti meditasi atau pernapasan dalam, serta membatasi paparan terhadap hal-hal yang
+        memicu tekanan berlebih.
+        </p>
+
+        <p>
+        Penting juga untuk mengenali batas kemampuan diri dan tidak ragu meminta bantuan ketika merasa kewalahan.
+        </p>
+        `
+    },
+    3: {
+        title: "Mengelola Rasa Cemas",
+        content: `
+        <p>
+        Rasa cemas adalah perasaan khawatir atau takut terhadap sesuatu yang belum tentu terjadi. Dalam batas tertentu,
+        kecemasan bisa membantu kita lebih waspada, namun jika berlebihan dapat mengganggu aktivitas sehari-hari.
+        </p>
+
+        <p>
+        Teknik sederhana seperti latihan pernapasan, menulis pikiran yang mengganggu, dan membatasi konsumsi informasi negatif
+        dapat membantu meredakan kecemasan.
+        </p>
+
+        <p>
+        Jika kecemasan terus berlangsung dan mengganggu kualitas hidup, mencari bantuan profesional adalah langkah yang bijak.
+        </p>
+        `
+    },
+    4: {
+        title: "Tidur & Kesehatan Mental",
+        content: `
+        <p>
+        Tidur yang cukup dan berkualitas memiliki peran besar dalam menjaga kesehatan mental. Kurang tidur dapat memicu
+        perubahan suasana hati, sulit berkonsentrasi, dan meningkatkan risiko stres serta depresi.
+        </p>
+
+        <p>
+        Membiasakan jadwal tidur yang teratur, menghindari penggunaan gawai sebelum tidur, dan menciptakan lingkungan tidur
+        yang nyaman dapat meningkatkan kualitas istirahat.
+        </p>
+        `
+    },
+    5: {
+        title: "Mencegah Burnout",
+        content: `
+        <p>
+        Burnout adalah kondisi kelelahan emosional, fisik, dan mental akibat tekanan berkepanjangan, terutama dalam pekerjaan
+        atau studi.
+        </p>
+
+        <p>
+        Tanda burnout meliputi kelelahan ekstrem, hilangnya motivasi, dan perasaan sinis terhadap aktivitas yang dijalani.
+        Pencegahan burnout dapat dilakukan dengan menjaga keseimbangan antara kerja dan istirahat.
+        </p>
+        `
+    },
+    6: {
+        title: "Self-Care: Mulai dari Hal Kecil",
+        content: `
+        <p>
+        Self-care adalah tindakan sadar untuk merawat diri sendiri demi menjaga kesehatan mental dan emosional.
+        Self-care tidak selalu mahal atau rumit.
+        </p>
+
+        <p>
+        Hal sederhana seperti minum air yang cukup, meluangkan waktu untuk diri sendiri, dan mengatakan "tidak"
+        ketika dibutuhkan merupakan bentuk self-care yang penting.
+        </p>
+        `
+    }
+};
+
+document.getElementById("title").innerText = articles[info].title;
+document.getElementById("content").innerHTML = articles[info].content;
+</script>
+
+</body>
+</html>

@@ -57,5 +57,5 @@ if ($hasil->num_rows > 0) {
 
 $query->execute();
 
-header("Location: ../detail_menuutama/self_care.php?success=1");
+header("Location: ../detail_menuutama/selfcare.php?success=1");
 exit;

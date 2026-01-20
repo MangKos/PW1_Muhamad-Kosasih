@@ -192,6 +192,22 @@ $artikels = [
                     </div>
                 </a>
             </div>
+            <div class="col-md-4">
+    <a href="detail_menuutama/meditasi.php" class="text-decoration-none text-dark">
+        <div class="card card-feature p-4">
+            <div class="mb-3">
+                <span class="bg-success-subtle text-success rounded-circle p-3 d-inline-flex">
+                    <i class="bi bi-wind fs-3"></i>
+                </span>
+            </div>
+            <h5 class="fw-semibold">Meditasi</h5>
+            <p class="text-muted small">
+                Latihan pernapasan & relaksasi untuk mengurangi beban mental.
+            </p>
+        </div>
+    </a>
+</div>
+
         </div>
 
         <!-- JUDUL ARTIKEL -->
@@ -300,7 +316,7 @@ $artikels = [
 
 
         <footer class="text-center py-4">
-            <small>© Muhamad Kosasih</small>
+            <small>©Copyright by 23552011450_MUHAMAD KOSASIH_TIF RP 23 CNS B_UASWEB1</small>
         </footer>
     </div>
 

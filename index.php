@@ -5,11 +5,8 @@
   <title>Jaga Mental | Aplikasi Kesehatan Mental</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-
-  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
   <style>
@@ -121,10 +118,7 @@
           informasi dan sistem pendukung untuk membantu pengguna
           menjaga keseimbangan emosional secara mandiri.
         </p>
-        <p>
-          Aplikasi ini dikembangkan sebagai bagian dari
-          <strong>Proyek Ujian Akhir Semester mata kuliah Web 1</strong>.
-        </p>
+
       </div>
       <div class="col-md-6 text-center">
         <i class="bi bi-emoji-smile-fill text-primary" style="font-size: 120px;"></i>
@@ -145,9 +139,8 @@
 
             <!-- Artikel 1 -->
             <div class="col-md-4 mb-4">
-                <a href="https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response"
-                   target="_blank" rel="noopener noreferrer"
-                   class="text-decoration-none text-dark">
+            <a href="detail_artikel/detail1.html?info=1"
+              class="text-decoration-none text-dark">
                     <div class="card shadow-sm h-100">
                         <div class="card-body">
                             <h5 class="card-title">Apa Itu Kesehatan Mental?</h5>
@@ -155,9 +148,6 @@
                                 Penjelasan resmi dari WHO mengenai definisi,
                                 faktor risiko, dan pentingnya kesehatan mental.
                             </p>
-                            <small class="text-muted d-block mb-2">
-                                Sumber: World Health Organization (WHO)
-                            </small>
                             <span class="text-primary fw-semibold">
                                 Baca sekarang →
                             </span>
@@ -168,9 +158,8 @@
 
             <!-- Artikel 2 -->
             <div class="col-md-4 mb-4">
-                <a href="https://www.halodoc.com/artikel/7-cara-mengelola-stres-sehari-hari"
-                   target="_blank" rel="noopener noreferrer"
-                   class="text-decoration-none text-dark">
+            <a href="detail_artikel/detail2.html"
+  class="text-decoration-none text-dark">
                     <div class="card shadow-sm h-100">
                         <div class="card-body">
                             <h5 class="card-title">Mengelola Stres Sehari-hari</h5>
@@ -178,9 +167,6 @@
                                 Tips praktis dan ilmiah untuk mengelola stres
                                 agar tidak berdampak pada kesehatan mental.
                             </p>
-                            <small class="text-muted d-block mb-2">
-                                Sumber: Halodoc
-                            </small>
                             <span class="text-primary fw-semibold">
                                 Baca sekarang →
                             </span>
@@ -191,9 +177,8 @@
 
             <!-- Artikel 3 -->
             <div class="col-md-4 mb-4">
-                <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6347561/"
-                   target="_blank" rel="noopener noreferrer"
-                   class="text-decoration-none text-dark">
+                <a href="detail_artikel/detail3.html"
+                  class="text-decoration-none text-dark">
                     <div class="card shadow-sm h-100">
                         <div class="card-body">
                             <h5 class="card-title">Pentingnya Self-Care</h5>
@@ -201,9 +186,6 @@
                                 Artikel jurnal ilmiah tentang peran self-care
                                 dalam menjaga kesejahteraan mental individu.
                             </p>
-                            <small class="text-muted d-block mb-2">
-                                Sumber: National Library of Medicine
-                            </small>
                             <span class="text-primary fw-semibold">
                                 Baca sekarang →
                             </span>
@@ -223,7 +205,7 @@
     <h2 class="section-title">Kontak</h2>
     <p>Untuk informasi lebih lanjut, silakan hubungi:</p>
     <p class="fw-semibold">
-      <i class="bi bi-envelope"></i> email@example.com <br>
+      <i class="bi bi-envelope"></i> muhammadkosasih783@gmail.com <br>
       <i class="bi bi-person"></i> Muhamad
     </p>
   </div>
@@ -231,7 +213,7 @@
 
 <!-- FOOTER -->
 <footer class="text-center py-4">
-  <small>© 2025 Jaga Mental | Proyek UAS Web 1</small>
+  <small>©Copyright by 23552011450_MUHAMAD KOSASIH_TIF RP 23 CNS B_UASWEB1</small>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
