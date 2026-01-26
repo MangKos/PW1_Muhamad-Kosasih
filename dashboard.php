@@ -193,20 +193,36 @@ $artikels = [
                 </a>
             </div>
             <div class="col-md-4">
-    <a href="detail_menuutama/meditasi.php" class="text-decoration-none text-dark">
-        <div class="card card-feature p-4">
-            <div class="mb-3">
-                <span class="bg-success-subtle text-success rounded-circle p-3 d-inline-flex">
-                    <i class="bi bi-wind fs-3"></i>
-                </span>
+                <a href="detail_menuutama/meditasi.php" class="text-decoration-none text-dark">
+                    <div class="card card-feature p-4">
+                        <div class="mb-3">
+                            <span class="bg-success-subtle text-success rounded-circle p-3 d-inline-flex">
+                                <i class="bi bi-wind fs-3"></i>
+                            </span>
+                        </div>
+                        <h5 class="fw-semibold">Meditasi</h5>
+                        <p class="text-muted small">
+                            Latihan pernapasan & relaksasi untuk mengurangi beban mental.
+                        </p>
+                    </div>
+                </a>
             </div>
-            <h5 class="fw-semibold">Meditasi</h5>
-            <p class="text-muted small">
-                Latihan pernapasan & relaksasi untuk mengurangi beban mental.
-            </p>
-        </div>
-    </a>
-</div>
+            <div class="col-md-4">
+                <a href="detail_menuutama/konsultasi.php" class="text-decoration-none text-dark">
+                    <div class="card card-feature p-4">
+                        <div class="mb-3">
+                            <span class="bg-primary-subtle text-primary rounded-circle p-3 d-inline-flex">
+                                <i class="bi bi-chat-dots fs-3"></i>
+                            </span>
+                        </div>
+                        <h5 class="fw-semibold">Konsultasi</h5>
+                        <p class="text-muted small">
+                            Konsultasi pribadi untuk membantu mengatasi stres, kecemasan, dan masalah emosional.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
 
         </div>
 
