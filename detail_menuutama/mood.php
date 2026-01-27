@@ -168,6 +168,14 @@ $tanggal_hari_ini = date('Y-m-d');
                 </button>
             </form>
 
+            <!-- DELETE FORM -->
+            <form action="../proses/delete_mood.php" method="POST" style="margin-top: 20px;">
+                <input type="hidden" name="tanggal" value="<?= $tanggal_hari_ini ?>">
+                <button type="submit" class="btn btn-outline-danger w-100" onclick="return confirm('Yakin ingin menghapus data mood hari ini?');">
+                    <i class="bi bi-trash"></i> Hapus Data Mood Hari Ini
+                </button>
+            </form>
+
         </div>
     </div>
 </div>

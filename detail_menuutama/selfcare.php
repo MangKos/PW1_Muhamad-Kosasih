@@ -130,6 +130,14 @@ $tanggal_hari_ini = date('Y-m-d');
 
         </form>
 
+        <!-- DELETE FORM -->
+        <form action="../proses/delete_selfcare.php" method="POST" style="margin-top: 15px;">
+            <input type="hidden" name="tanggal" value="<?= $tanggal_hari_ini ?>">
+            <button type="submit" class="btn btn-outline-danger w-100 py-2 fw-semibold" onclick="return confirm('Yakin ingin menghapus data self-care hari ini?');">
+                <i class="bi bi-trash"></i> Hapus Data Self Care Hari Ini
+            </button>
+        </form>
+
     </div>
 
 </div>

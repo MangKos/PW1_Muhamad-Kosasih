@@ -1,4 +1,0 @@
-- [x] Update BAB I: Generalize mentions of specific vulnerabilities (e.g., "kredensial database yang hardcoded" to "konfigurasi database yang tidak optimal", "potensi XSS pada input catatan" to "potensi injeksi skrip pada input pengguna")
-- [x] Update BAB II: Ensure no specific exposures, seems general
-- [x] Update BAB III: Ensure no specific exposures, seems general
-- [x] Update BAB IV: Redact specific vulnerabilities in 4.2 (e.g., "Kredensial Database Hardcoded" to "Konfigurasi database yang tidak optimal", "Potensi XSS pada Input Catatan" to "Potensi Injeksi Skrip pada Input Pengguna", etc.)
