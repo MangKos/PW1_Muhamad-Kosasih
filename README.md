@@ -5,7 +5,8 @@ https://youtu.be/5CYWLX77QYg
 http://jagamental.my.id/ 
 
 (pas saya coba buka jalan namun pas dibuka lagi di beberapa device gak jalan di registernya, saya bingung untuk masalahnya itu apa, jadi disini saya inisiatif menggunakan 2 hosting di bawah ini pakai yang gratisan namun sudah jalan)
-https://jaga.page.gd/dashboard.php
+
+jaga.page.gd
 
 ## Penjelasan singkat tentang jaga mental
 Jaga Mental adalah aplikasi web kesehatan mental yang membantu pengguna menyadari, mengelola, dan meningkatkan kondisi mental mereka melalui fitur mood tracking, self-care, meditasi, serta dukungan profesional. Aplikasi ini menekankan kesadaran diri (awareness), pengelolaan mandiri (management), dan dukungan profesional (support) dengan pendekatan yang aman, personal, dan berbasis data.
