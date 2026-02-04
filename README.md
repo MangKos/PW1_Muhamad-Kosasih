@@ -4,8 +4,6 @@ https://youtu.be/5CYWLX77QYg
 ## Link Akses Hosting
 http://jagamental.my.id/ 
 
-(pas saya coba buka jalan namun pas dibuka lagi di beberapa device gak jalan di registernya, saya bingung untuk masalahnya itu apa, jadi disini saya inisiatif menggunakan 2 hosting di bawah ini pakai yang gratisan namun sudah jalan)
-
 https://jaga.page.gd/
 
 ## Penjelasan singkat tentang jaga mental
